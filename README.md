@@ -1,16 +1,76 @@
-# React + Vite
+# Student Directory
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple Student Directory project built with React and Vite.
 
-Currently, two official plugins are available:
+The application displays student information in responsive cards, including the student's name, course, age, and city.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## Features
 
-## React Compiler
+- Student data displayed using React
+- Data rendered with `.map()`
+- Responsive card layout
+- Same-sized student cards
+- Clean and simple user interface
+- Responsive design for desktop, tablet, and mobile devices
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Student Information
 
-## Expanding the ESLint configuration
+The directory displays:
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- Student Name
+- Course
+- Age
+- City
+
+## Technologies Used
+
+- React
+- JavaScript
+- CSS
+- Vite
+
+## Project Structure
+
+```text
+react-assignment-02/
+│
+├── public/
+├── src/
+│   ├── assets/
+│   ├── App.css
+│   ├── App.jsx
+│   ├── index.css
+│   └── main.jsx
+│
+├── .gitignore
+├── eslint.config.js
+├── index.html
+├── package.json
+├── package-lock.json
+├── README.md
+└── vite.config.js
+```
+
+## Installation
+
+Clone the repository and install dependencies:
+
+```bash
+npm install
+```
+
+Run the project:
+
+```bash
+npm run dev
+```
+
+Build the project:
+
+```bash
+npm run build
+```
+
+## Author
+
+React Assignment – Student Directory

@@ -1,24 +1,21 @@
-# Logs
-logs
-*.log
-npm-debug.log*
-yarn-debug.log*
-yarn-error.log*
-pnpm-debug.log*
-lerna-debug.log*
+# ==========================================
+# Git Ignore File
+# ==========================================
 
-node_modules
-dist
-dist-ssr
-*.local
+# Node Modules
+# Do not upload node_modules folder to GitHub
+node_modules/
 
-# Editor directories and files
-.vscode/*
-!.vscode/extensions.json
-.idea
-.DS_Store
-*.suo
-*.ntvs*
-*.njsproj
-*.sln
-*.sw?
+# ==========================================
+# Everything else will be uploaded
+# ==========================================
+
+# dist folder will be uploaded
+# src folder will be uploaded
+# public folder will be uploaded
+# README.md will be uploaded
+# package.json will be uploaded
+# package-lock.json will be uploaded
+# vite.config.js will be uploaded
+# eslint.config.js will be uploaded
+# VS Code files will also be uploaded
